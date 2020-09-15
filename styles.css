@@ -47,7 +47,7 @@ a{
     display: flex;
     flex-direction: column;
     width: 100%;
-    background: linear-gradient(rgba(134, 94, 104, 0.5), rgba(80, 47, 50, 0.6)), url(/images/scovia.png) center no-repeat;
+    background: linear-gradient(rgba(134, 94, 104, 0.5), rgba(80, 47, 50, 0.6)), url(../images/scovia.png) center no-repeat;
     background-size: cover;
     overflow: hidden;
     color: white;

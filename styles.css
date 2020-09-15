@@ -14,9 +14,7 @@ nav{
     background-color: #242418;
     top: 0;
     display: flex;
-    flex-direction: row;
-    
-    
+    flex-direction: row; 
     
 }
 nav ul{
@@ -50,6 +48,12 @@ a{
     background: url(./images/background.jpg);
     background-size: cover;
     overflow: hidden;
+}
+#home-section h1{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 100px 80px;
 }
 #port-section{
     height: 100vh;
@@ -96,6 +100,13 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+input[type=text], textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
 #submit-btn{
     padding: 6px 15px;

@@ -29,8 +29,22 @@ const Projects = () => (
         <BlogCard key={project.id}>
           <Img src={project.image} />
           <TitleContent>
-            <HeaderThree></HeaderThree>
+            <HeaderThree>{project.title}</HeaderThree>
+            <Hr />
           </TitleContent>
+          <CardInfo>{project.description}</CardInfo>
+          <div>
+            <TitleContent>Stack</TitleContent>
+            <TagList>
+              {project.tags.map((tag, i) => (
+                <Tag key={i}>{tag}</Tag>
+              ))}
+            </TagList>
+          </div>
+          <UtilityList>
+            <ExternalLinks href={project.visit}>Code</ExternalLinks>
+            <ExternalLinks href={project.source}>Source</ExternalLinks>
+          </UtilityList>
         </BlogCard>
       ))}
     </GridContainer>

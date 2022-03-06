@@ -30,13 +30,13 @@ var pJS = function(tag_id, params){
         value: '#fff'
       },
       shape: {
-        type: 'circle',
+        type: 'star',
         stroke: {
           width: 0,
           color: '#ff0000'
         },
         polygon: {
-          nb_sides: 5
+          nb_sides: 4
         },
         image: {
           src: '',
